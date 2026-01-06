@@ -202,8 +202,8 @@ html {
   color: #f7df1e;
 }
 
-.react {
-  color: #61dafb;
+.unity {
+  color: #222222;
 }
 
 .node {
@@ -278,4 +278,53 @@ section {
   height: 2px;
   background-color: #e0e0e0;
   margin: auto;
+}
+
+/*  SECCION 3 */
+
+.educacion {
+  padding: 100px 0;
+}
+
+.educacion h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.educacion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.edu-card {
+  background: #f9f9f9;
+  padding: 24px;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-6px);
+}
+
+.edu-fecha {
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.edu-card h3 {
+  font-size: 18px;
+  margin: 10px 0 6px;
+}
+
+.edu-institucion {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
 }
